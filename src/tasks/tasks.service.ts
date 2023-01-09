@@ -9,7 +9,7 @@ export class TasksService {
   }
 
   findAll() {
-    return `This action returns all tasks`;
+    return [];
   }
 
   findOne(id: number) {

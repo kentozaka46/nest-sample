@@ -3,6 +3,6 @@ import { TasksService } from './tasks.service';
 import { TasksResolver } from './tasks.resolver';
 
 @Module({
-  providers: [TasksResolver, TasksService]
+  providers: [TasksResolver, TasksService],
 })
 export class TasksModule {}
